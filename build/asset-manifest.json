@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/projects-for-portfolio/insure-landing-page/static/css/main.ce75497c.chunk.css",
+    "main.js": "/projects-for-portfolio/insure-landing-page/static/js/main.7811cf47.chunk.js",
+    "main.js.map": "/projects-for-portfolio/insure-landing-page/static/js/main.7811cf47.chunk.js.map",
+    "runtime-main.js": "/projects-for-portfolio/insure-landing-page/static/js/runtime-main.3e1963f4.js",
+    "runtime-main.js.map": "/projects-for-portfolio/insure-landing-page/static/js/runtime-main.3e1963f4.js.map",
+    "static/js/2.0f8b281c.chunk.js": "/projects-for-portfolio/insure-landing-page/static/js/2.0f8b281c.chunk.js",
+    "static/js/2.0f8b281c.chunk.js.map": "/projects-for-portfolio/insure-landing-page/static/js/2.0f8b281c.chunk.js.map",
+    "index.html": "/projects-for-portfolio/insure-landing-page/index.html",
+    "static/css/main.ce75497c.chunk.css.map": "/projects-for-portfolio/insure-landing-page/static/css/main.ce75497c.chunk.css.map",
+    "static/js/2.0f8b281c.chunk.js.LICENSE.txt": "/projects-for-portfolio/insure-landing-page/static/js/2.0f8b281c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e1963f4.js",
+    "static/js/2.0f8b281c.chunk.js",
+    "static/css/main.ce75497c.chunk.css",
+    "static/js/main.7811cf47.chunk.js"
+  ]
+}

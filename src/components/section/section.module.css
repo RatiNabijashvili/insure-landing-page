@@ -1,0 +1,60 @@
+.section {
+  position: relative;
+  top: 15em;
+}
+
+.responsive {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.main-h2 {
+  position: relative;
+  font-size: 3rem;
+  padding: 0.5em 0;
+  width: 10em;
+  margin: 0;
+  color: hsl(256, 26%, 20%);
+}
+
+.main-div {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 10em;
+}
+
+.components {
+  padding: 2em;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: hsl(256, 26%, 20%);
+}
+
+.description {
+  font-size: 1rem;
+  width: 20em;
+  color: hsl(273, 4%, 51%);
+}
+
+@media (min-width: 1700px) {
+  .main-h2 {
+    font-size: 4rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 1700px) {
+  .responsive {
+    width: 80%;
+  }
+}

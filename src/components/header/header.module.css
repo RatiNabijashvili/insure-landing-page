@@ -1,0 +1,76 @@
+.div {
+  background-color: hsl(256, 26%, 20%);
+  height: 40em;
+  width: 100%;
+}
+
+.responsive-div {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.text {
+  position: relative;
+  padding: 12em 0;
+}
+
+.h2 {
+  font-size: 3rem;
+  line-height: 1em;
+  color: hsl(0, 0%, 98%);
+  margin: 0;
+  font-weight: 400;
+}
+
+.p {
+  color: hsl(0, 0%, 98%);
+  width: 35em;
+  padding: 1em 0;
+}
+
+.header-button {
+  color: hsl(0, 0%, 98%);
+  background-color: hsl(256, 26%, 20%);
+  border: solid 1px hsl(0, 0%, 98%);
+}
+
+.header-button:hover {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(256, 26%, 20%);
+  outline: 0;
+  cursor: pointer;
+}
+
+.main-img {
+  position: relative;
+  display: block;
+  top: 10em;
+}
+
+.right-decoration {
+  position: absolute;
+  float: right;
+  right: 0;
+  top: 5em;
+  width: 25em;
+  min-width: 25em;
+}
+
+.left-decoration {
+  position: absolute;
+  float: left;
+  left: 0;
+  top: 35em;
+  width: 10em;
+  min-width: 10em;
+}
+
+@media (max-width: 1700px) {
+  .responsive-div {
+    width: 80%;
+  }
+}

@@ -1,0 +1,60 @@
+.section {
+  position: relative;
+  top: 30em;
+  width: 100%;
+}
+
+.main-div {
+  overflow: hidden;
+  position: relative;
+  width: 60%;
+  height: 15em;
+  margin: 0 auto;
+  background-color: hsl(256, 26%, 20%);
+}
+
+.more-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 2em 5em;
+}
+
+.h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 98%);
+}
+.moreSec-button {
+  z-index: 2;
+  background-color: hsl(256, 26%, 20%);
+  color: hsl(0, 0%, 98%);
+  border: solid 1px hsl(0, 0%, 98%);
+}
+.moreSec-button:hover {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(256, 26%, 20%);
+  border: none;
+  outline: 0;
+  cursor: pointer;
+}
+
+.img {
+  z-index: 1;
+  position: relative;
+  width: 28em;
+  top: -13em;
+  float: right;
+}
+
+@media (max-width: 1700px) {
+  .section {
+    position: relative;
+    top: 20em;
+  }
+
+  .main-div {
+    width: 80%;
+  }
+}

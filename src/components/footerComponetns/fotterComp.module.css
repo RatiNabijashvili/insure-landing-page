@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+.title {
+  font-family: 'Karla', serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: hsl(273, 4%, 51%);
+}
+
+.li {
+  font-family: 'Karla', serif;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: hsl(256, 26%, 20%);
+}
+
+.li:hover {
+  cursor: pointer;
+  text-decoration: underline hsl(256, 26%, 20%);
+}
+
+.ul {
+  padding: 0;
+}
