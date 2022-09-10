@@ -19,6 +19,12 @@
   width: 100%;
 }
 
+.instagram-icon,
+.pinterest-icon,
+.twitter-icon {
+  margin-left: 0.5em;
+}
+
 .fb-icon:hover {
   cursor: pointer;
 }

@@ -1,6 +1,8 @@
 import React from 'react'
 import { Button } from '../button/button'
 import Styles from './moreSec.module.css'
+import Img from './img/bg-pattern-how-we-work-desktop.svg'
+
 const moreSection = () => {
   return (
     <section className={Styles.section}>
@@ -12,11 +14,7 @@ const moreSection = () => {
           </h2>
           <Button name='HOW WE WORK' className={Styles['moreSec-button']} />
         </div>
-        <img
-          src='/images/bg-pattern-how-we-work-desktop.svg'
-          alt='how-we-work-decoration'
-          className={Styles.img}
-        />
+        <img src={Img} alt='how-we-work-decoration' className={Styles.img} />
       </div>
     </section>
   )

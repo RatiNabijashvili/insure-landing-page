@@ -1,6 +1,9 @@
 import React from 'react'
 import { Button } from '../button/button'
 import Styles from './header.module.css'
+import IntroImg from './img/image-intro-desktop.jpg'
+import LeftDecoration from './img/bg-pattern-intro-left-desktop.svg'
+import RightDecoration from './img/bg-pattern-intro-right-desktop.svg'
 
 const Header = () => {
   return (
@@ -18,19 +21,15 @@ const Header = () => {
           </p>
           <Button name='VIEW PLANS' className={Styles['header-button']} />
         </div>
-        <img
-          src='/images/image-intro-desktop.jpg'
-          alt='main-image'
-          className={Styles['main-img']}
-        />
+        <img src={IntroImg} alt='main-image' className={Styles['main-img']} />
       </div>
       <img
-        src='/images/bg-pattern-intro-right-desktop.svg'
+        src={RightDecoration}
         alt='right-decoration'
         className={Styles['right-decoration']}
       />
       <img
-        src='/images/bg-pattern-intro-left-desktop.svg'
+        src={LeftDecoration}
         alt='left-decoration'
         className={Styles['left-decoration']}
       />

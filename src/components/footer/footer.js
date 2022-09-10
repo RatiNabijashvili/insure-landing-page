@@ -1,30 +1,36 @@
 import React from 'react'
 import FooterComponent from '../footerComponetns/footerComponent'
 import Styles from './footer.module.css'
+import Logo from './img/logo.svg'
+import FacebookIcon from './img/icon-facebook.svg'
+import TwitterIcon from './img/icon-twitter.svg'
+import PinterestIcon from './img/icon-pinterest.svg'
+import InstagramIcon from './img/icon-instagram.svg'
+
 const footer = () => {
   return (
     <footer className={Styles.footer}>
       <div className={Styles.responsive}>
         <div className={Styles['main-div']}>
-          <img src='/images/logo.svg' alt='img' />
+          <img src={Logo} alt='img' />
           <div>
             <img
-              src='/images/icon-facebook.svg'
+              src={FacebookIcon}
               className={Styles['fb-icon']}
               alt='facebook-icon'
             />
             <img
-              src='/images/icon-twitter.svg'
+              src={TwitterIcon}
               className={Styles['twitter-icon']}
               alt='twitter-icon'
             />
             <img
-              src='/images/icon-pinterest.svg'
+              src={PinterestIcon}
               className={Styles['pinterest-icon']}
               alt='pinterest-icon'
             />
             <img
-              src='/images/icon-instagram.svg'
+              src={InstagramIcon}
               className={Styles['instagram-icon']}
               alt='instagram-icon'
             />
